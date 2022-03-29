@@ -1,26 +1,38 @@
 {
-    "dev": {
-        "awscloudformation": {
-            "AuthRoleName": "amplify-amplifysvelteapps3up-dev-234553-authRole",
-            "UnauthRoleArn": "arn:aws:iam::754933769358:role/amplify-amplifysvelteapps3up-dev-234553-unauthRole",
-            "AuthRoleArn": "arn:aws:iam::754933769358:role/amplify-amplifysvelteapps3up-dev-234553-authRole",
-            "Region": "us-east-1",
-            "DeploymentBucketName": "amplify-amplifysvelteapps3up-dev-234553-deployment",
-            "UnauthRoleName": "amplify-amplifysvelteapps3up-dev-234553-unauthRole",
-            "StackName": "amplify-amplifysvelteapps3up-dev-234553",
-            "StackId": "arn:aws:cloudformation:us-east-1:754933769358:stack/amplify-amplifysvelteapps3up-dev-234553/5c65ceb0-097d-11eb-8d83-0acbfa2a24c9",
-            "AmplifyAppId": "dslqgnfryboxo"
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-autoabstract-dev-220738-authRole",
+      "UnauthRoleArn": "arn:aws:iam::741162457976:role/amplify-autoabstract-dev-220738-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::741162457976:role/amplify-autoabstract-dev-220738-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-autoabstract-dev-220738-deployment",
+      "UnauthRoleName": "amplify-autoabstract-dev-220738-unauthRole",
+      "StackName": "amplify-autoabstract-dev-220738",
+      "StackId": "arn:aws:cloudformation:us-east-1:741162457976:stack/amplify-autoabstract-dev-220738/c72aaec0-af15-11ec-9389-1205cd516395",
+      "AmplifyAppId": "d3iodjymx32hn4"
+    },
+    "categories": {
+      "auth": {
+        "autoabstract07a4de1b": {}
+      },
+      "function": {
+        "autoabstract07a4de1bCustomMessage": {
+          "REDIRECTURL": "",
+          "EMAILSUBJECT": "Confirm Your AutoAbstract Account",
+          "EMAILMESSAGE": "Click on the link below to confirm your account.",
+          "deploymentBucketName": "amplify-autoabstract-dev-220738-deployment",
+          "s3Key": "amplify-builds/autoabstract07a4de1bCustomMessage-6462722f646f73415255-build.zip"
         },
-        "categories": {
-            "auth": {
-                "amplifysvelteapps3up7f0f6886": {}
-            },
-            "hosting": {
-                "amplifyhosting": {
-                    "appId": "dslqgnfryboxo",
-                    "type": "manual"
-                }
-            }
+        "autoabstract07a4de1bPostConfirmation": {
+          "GROUP": "Whitemarsh",
+          "deploymentBucketName": "amplify-autoabstract-dev-220738-deployment",
+          "s3Key": "amplify-builds/autoabstract07a4de1bPostConfirmation-6369752b6365795a326d-build.zip"
+        },
+        "S3Trigger20e43ea6": {
+          "deploymentBucketName": "amplify-autoabstract-dev-220738-deployment",
+          "s3Key": "amplify-builds/S3Trigger20e43ea6-5a472f447447696a2b56-build.zip"
         }
+      }
     }
+  }
 }

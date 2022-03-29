@@ -1,0 +1,18 @@
+{
+  "trigger": true,
+  "modules": [
+    "add-to-group"
+  ],
+  "parentResource": "autoabstract07a4de1b",
+  "functionName": "autoabstract07a4de1bPostConfirmation",
+  "resourceName": "autoabstract07a4de1bPostConfirmation",
+  "parentStack": "auth",
+  "triggerEnvs": [],
+  "triggerDir": "C:\\Users\\Lucas Forbes\\AppData\\Roaming\\npm\\node_modules\\@aws-amplify\\cli\\node_modules\\@aws-amplify\\amplify-category-auth\\provider-utils\\awscloudformation\\triggers\\PostConfirmation",
+  "triggerTemplate": "PostConfirmation.json.ejs",
+  "triggerEventPath": "PostConfirmation.event.json",
+  "roleName": "autoabstract07a4de1bPostConfirmation",
+  "skipEdit": true,
+  "GROUP": "Whitemarsh",
+  "enableCors": false
+}
