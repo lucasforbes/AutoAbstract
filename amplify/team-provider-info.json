@@ -1,38 +1,44 @@
 {
-  "dev": {
-    "awscloudformation": {
-      "AuthRoleName": "amplify-autoabstract-dev-220738-authRole",
-      "UnauthRoleArn": "arn:aws:iam::741162457976:role/amplify-autoabstract-dev-220738-unauthRole",
-      "AuthRoleArn": "arn:aws:iam::741162457976:role/amplify-autoabstract-dev-220738-authRole",
-      "Region": "us-east-1",
-      "DeploymentBucketName": "amplify-autoabstract-dev-220738-deployment",
-      "UnauthRoleName": "amplify-autoabstract-dev-220738-unauthRole",
-      "StackName": "amplify-autoabstract-dev-220738",
-      "StackId": "arn:aws:cloudformation:us-east-1:741162457976:stack/amplify-autoabstract-dev-220738/c72aaec0-af15-11ec-9389-1205cd516395",
-      "AmplifyAppId": "d3iodjymx32hn4"
-    },
-    "categories": {
-      "auth": {
-        "autoabstract07a4de1b": {}
-      },
-      "function": {
-        "autoabstract07a4de1bCustomMessage": {
-          "REDIRECTURL": "",
-          "EMAILSUBJECT": "Confirm Your AutoAbstract Account",
-          "EMAILMESSAGE": "Click on the link below to confirm your account.",
-          "deploymentBucketName": "amplify-autoabstract-dev-220738-deployment",
-          "s3Key": "amplify-builds/autoabstract07a4de1bCustomMessage-6462722f646f73415255-build.zip"
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-autoabstract-dev-220738-authRole",
+            "UnauthRoleArn": "arn:aws:iam::741162457976:role/amplify-autoabstract-dev-220738-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::741162457976:role/amplify-autoabstract-dev-220738-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "amplify-autoabstract-dev-220738-deployment",
+            "UnauthRoleName": "amplify-autoabstract-dev-220738-unauthRole",
+            "StackName": "amplify-autoabstract-dev-220738",
+            "StackId": "arn:aws:cloudformation:us-east-1:741162457976:stack/amplify-autoabstract-dev-220738/c72aaec0-af15-11ec-9389-1205cd516395",
+            "AmplifyAppId": "d3iodjymx32hn4"
         },
-        "autoabstract07a4de1bPostConfirmation": {
-          "GROUP": "Whitemarsh",
-          "deploymentBucketName": "amplify-autoabstract-dev-220738-deployment",
-          "s3Key": "amplify-builds/autoabstract07a4de1bPostConfirmation-6369752b6365795a326d-build.zip"
-        },
-        "S3Trigger20e43ea6": {
-          "deploymentBucketName": "amplify-autoabstract-dev-220738-deployment",
-          "s3Key": "amplify-builds/S3Trigger20e43ea6-5a472f447447696a2b56-build.zip"
+        "categories": {
+            "auth": {
+                "autoabstract07a4de1b": {}
+            },
+            "function": {
+                "autoabstract07a4de1bCustomMessage": {
+                    "REDIRECTURL": "",
+                    "EMAILSUBJECT": "Confirm Your AutoAbstract Account",
+                    "EMAILMESSAGE": "Click on the link below to confirm your account.",
+                    "deploymentBucketName": "amplify-autoabstract-dev-220738-deployment",
+                    "s3Key": "amplify-builds/autoabstract07a4de1bCustomMessage-6462722f646f73415255-build.zip"
+                },
+                "autoabstract07a4de1bPostConfirmation": {
+                    "GROUP": "Whitemarsh",
+                    "deploymentBucketName": "amplify-autoabstract-dev-220738-deployment",
+                    "s3Key": "amplify-builds/autoabstract07a4de1bPostConfirmation-6369752b6365795a326d-build.zip"
+                },
+                "S3Trigger20e43ea6": {
+                    "deploymentBucketName": "amplify-autoabstract-dev-220738-deployment",
+                    "s3Key": "amplify-builds/S3Trigger20e43ea6-5a472f447447696a2b56-build.zip"
+                }
+            },
+            "hosting": {
+                "amplifyhosting": {
+                    "appId": "d3iodjymx32hn4",
+                    "type": "cicd"
+                }
+            }
         }
-      }
     }
-  }
 }
